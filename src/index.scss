@@ -1,0 +1,85 @@
+@import '~bootstrap/scss/bootstrap';
+
+html,
+body {
+    height: 100%;
+}
+
+html,
+body,
+#__next {
+    min-height: 100%;
+    position: relative;
+}
+
+#__next {
+    padding-bottom: 5vw;
+}
+
+.form-group {
+    width: 25%;
+}
+
+.my-icon {
+    float: right;
+}
+
+.my-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    background-color: black;
+    background-image: url(https://static.ghost.org/v3.0.0/images/publication-cover.png);
+    background-position: center;
+    height: 15vw;  
+}
+
+.my-footer {
+    background-color: black;
+    background-image: url(https://static.ghost.org/v3.0.0/images/publication-cover.png);
+    background-position: center;
+    height: 5vw;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.wrap-posts {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 2%;
+}
+
+.wrap-post {
+    flex-direction: column;
+}
+
+.post {
+    width: 30%;
+    margin: 1%;
+    text-align: center;
+}
+
+.wrap-content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.my-wrap-form {
+    align-items: center;    
+    margin-top: 4%;
+}
+
+.wrap-comments {
+    margin: 5% auto;
+    width: 50%;
+
+    button {
+        margin-left: 5%;
+    }
+}
